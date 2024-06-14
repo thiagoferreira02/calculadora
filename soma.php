@@ -7,3 +7,16 @@
 
     $var = new Soma();
     $var->soma(10, 20);
+
+    class Cliente {
+        public $nome;
+
+        public $cpf;
+
+        public function pessoa($nome, $cpf) {
+            $this->nome = $nome;
+            $this->cpf = $cpf;
+        }
+    }
+
+    
